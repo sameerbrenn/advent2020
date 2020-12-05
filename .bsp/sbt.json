@@ -1,0 +1,1 @@
+{"name":"sbt","version":"1.4.4","bspVersion":"2.0.0-M5","languages":["scala"],"argv":["/opt/twitter_mde/package/TwitterJDK11/bdbe2c385181cfb1ff47395cd6b71720e4ddfaf5e3e77acce8b317746b774c05/Contents/Home/bin/java","-Xms100m","-Xmx100m","-classpath","/Applications/Twitter IntelliJ IDEA.app/Contents/plugins/Scala/launcher/sbt-launch.jar","xsbt.boot.Boot","-bsp"]}
