@@ -20,7 +20,8 @@ object DayOne extends App {
     leftException.toTry
   }
 
-  val source = Source.fromFile("src/main/scala/day1.txt").getLines()
-  val input = source.toSeq.map(_.toLong)
+  val source = Source.fromFile("src/main/scala/day1.txt")
+  val input = source.getLines().toSeq.map(_.toLong)
   println(findSum(input).get)
+  source.close()
 }

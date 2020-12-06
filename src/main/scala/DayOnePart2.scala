@@ -13,7 +13,8 @@ object DayOnePart2 extends App {
     }
   }
 
-  val source = Source.fromFile("src/main/scala/day1.txt").getLines()
-  val input = source.toSeq.map(_.toLong)
+  val source = Source.fromFile("src/main/scala/day1.txt")
+  val input = source.getLines().toSeq.map(_.toLong)
   println(findTripleSum(input).getOrElse(throw new RuntimeException("No valid result")))
+  source.close()
 }
